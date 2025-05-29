@@ -11,17 +11,49 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-sans bg-white">
+    <div className="font-sans bg-white text-gray-800">
+      {/* Navigation */}
       <Navbar />
+
+      {/* Main Content */}
       <main>
-        <Hero />
-        <Mission />
-        <HowItWorks />
-        <Impact />
-        <JoinUs />
-        <AboutUs />
-        <Contact />
+        {/* Hero Section */}
+        <section id="home" className="scroll-mt-16">
+          <Hero />
+        </section>
+
+        {/* Our Mission */}
+        <section id="mission" className="scroll-mt-16">
+          <Mission />
+        </section>
+
+        {/* How It Works */}
+        <section id="how-it-works" className="scroll-mt-16">
+          <HowItWorks />
+        </section>
+
+        {/* Impact */}
+        <section id="impact" className="scroll-mt-16">
+          <Impact />
+        </section>
+
+        {/* Join Us */}
+        <section id="join-us" className="scroll-mt-16">
+          <JoinUs />
+        </section>
+
+        {/* About Us */}
+        <section id="about-us" className="scroll-mt-16">
+          <AboutUs />
+        </section>
+
+        {/* Contact Section */}
+        <section id="contact" className="scroll-mt-16">
+          <Contact />
+        </section>
       </main>
+
+      {/* Footer */}
       <Footer />
     </div>
   );
