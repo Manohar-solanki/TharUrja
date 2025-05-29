@@ -12,7 +12,7 @@ const Contact = () => {
     phone: '',
     message: '',
     subject: 'New Contact Form Submission from TharUrja',
-    access_key: 'YOUR_WEB3FORMS_ACCESS_KEY', // Replace this with your actual key
+    access_key: 'e962bbd6-e60d-4b1c-bc94-2d5dee0809a0', // Replace this with your actual key
     botcheck: ''
   });
 
