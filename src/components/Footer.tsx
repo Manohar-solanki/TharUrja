@@ -10,7 +10,11 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center mb-4">
-              <Sun className="h-8 w-8 mr-2 text-yellow-500" />
+                <img 
+                  src="/images/logo.png" 
+                  alt="Logo" 
+                  className="h-10 w-10 mr-2" 
+                />
               <span className="font-bold text-xl">TharUrja</span>
             </div>
             <p className="text-gray-400 mb-6">
@@ -26,7 +30,7 @@ const Footer: React.FC = () => {
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
+              <a href="https://www.linkedin.com/company/tharurja/posts/?feedView=all" className="text-gray-400 hover:text-white transition-colors duration-300" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
@@ -105,13 +109,13 @@ const Footer: React.FC = () => {
             © {new Date().getFullYear()} TharUrja. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+            <a href="/privacy-policy" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
               Privacy Policy
             </a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+            <a href="/terms-of-service" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
               Terms of Service
             </a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+            <a href="/cookie-policy" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
               Cookie Policy
             </a>
           </div>
