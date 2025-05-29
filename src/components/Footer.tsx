@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
               {[
                 'Solar Energy Solutions', 
                 'Wind Power Generation', 
-                'EcoSync AI Platform', 
+                'TharUrja AI Platform', 
                 'Smart Home Integration',
                 'Energy Monitoring',
                 'Consulting Services'
