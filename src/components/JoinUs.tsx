@@ -56,7 +56,7 @@ const JoinUs: React.FC = () => {
             </div>
             <h3 className="text-2xl font-bold mb-4">Investors</h3>
             <p className="mb-6 opacity-90">
-              Support the growth of EcoSync Energy with capital that generates both financial returns and positive environmental impact.
+              Support the growth of TharUrja with capital that generates both financial returns and positive environmental impact.
             </p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-center">
