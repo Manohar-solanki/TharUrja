@@ -57,7 +57,7 @@ const Impact: React.FC = () => {
 
         {/* Testimonials */}
         <div className="max-w-6xl mx-auto">
-          <h3 className="text-2xl font-bold text-gray-900 mb-10 text-center">Voices from Our Community</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-10 text-center">🌿 Voices from Our Community (Aspirational)</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="bg-white rounded-lg shadow-lg p-8 relative">
               <div className="absolute -top-5 left-8 h-10 w-10 bg-green-500 rounded-full flex items-center justify-center">
@@ -67,7 +67,7 @@ const Impact: React.FC = () => {
               </div>
               <div className="pt-4">
                 <p className="text-gray-600 italic mb-6">
-                  "TharUrja's solar initiative has transformed our village. We now have reliable power for our homes and businesses, and many young people have found employment with the project."
+                  "TharUrja’s vision of solar-powered and carbon-capturing technology could transform our village’s future. Reliable energy would empower homes, businesses, and create new opportunities for local youth."
                 </p>
                 <div className="flex items-center">
                   <div className="h-12 w-12 bg-gray-300 rounded-full mr-4"></div>
@@ -87,7 +87,7 @@ const Impact: React.FC = () => {
               </div>
               <div className="pt-4">
                 <p className="text-gray-600 italic mb-6">
-                  "The TharUrja system in our office building has reduced our energy costs by 32% while maintaining optimal comfort. The AI technology is truly revolutionary in how it adapts to our usage patterns."
+                  "Once implemented, TharUrja’s smart energy management system could help businesses like mine reduce energy costs while contributing to a greener planet. I’m excited to see how this technology evolves."
                 </p>
                 <div className="flex items-center">
                   <div className="h-12 w-12 bg-gray-300 rounded-full mr-4"></div>
