@@ -93,7 +93,7 @@ const AboutUs: React.FC = () => {
                   <div className="absolute left-1/2 transform -translate-x-1/2 -mt-3 w-6 h-6 rounded-full bg-green-500 border-4 border-white shadow"></div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="md:text-right pr-8">
-                      <h4 className="text-xl font-bold text-gray-900 mb-2">2023</h4>
+                      <h4 className="text-xl font-bold text-gray-900 mb-2">🌿2023</h4>
                       <p className="text-gray-600">Founded TharUrja with a vision to transform rural energy access through renewable sources and AI technology.</p>
                     </div>
                     <div className="pl-8">
@@ -109,8 +109,8 @@ const AboutUs: React.FC = () => {
                       <img src="https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pilot Project" className="rounded-lg shadow-md w-full h-40 object-cover" />
                     </div>
                     <div className="order-1 md:order-2 pl-8">
-                      <h4 className="text-xl font-bold text-gray-900 mb-2">2024</h4>
-                      <p className="text-gray-600">Launched first pilot project in Balesar village, providing solar power to 50 homes with our TharUrja smart management system.</p>
+                      <h4 className="text-xl font-bold text-gray-900 mb-2">2024 (Planned)</h4>
+                      <p className="text-gray-600">🛠️ Developing the first pilot project in Balesar village to provide solar-powered, smart energy solutions — including a system for carbon capture and cooling technology.</p>
                     </div>
                   </div>
                 </div>
@@ -119,8 +119,8 @@ const AboutUs: React.FC = () => {
                   <div className="absolute left-1/2 transform -translate-x-1/2 -mt-3 w-6 h-6 rounded-full bg-green-500 border-4 border-white shadow"></div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="md:text-right pr-8">
-                      <h4 className="text-xl font-bold text-gray-900 mb-2">2025</h4>
-                      <p className="text-gray-600">Expanding across Rajasthan with plans to power 10,000 homes and businesses through our renewable energy network.</p>
+                      <h4 className="text-xl font-bold text-gray-900 mb-2">2025 (Vision)</h4>
+                      <p className="text-gray-600">🚀 Expand across Rajasthan with a goal to power thousands of homes and businesses through our innovative, sustainable energy network.</p>
                     </div>
                     <div className="pl-8">
                       <img src="https://images.pexels.com/photos/9799706/pexels-photo-9799706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Expansion" className="rounded-lg shadow-md w-full h-40 object-cover" />
