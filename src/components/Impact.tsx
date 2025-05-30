@@ -6,10 +6,10 @@ const Impact: React.FC = () => {
     <section id="impact" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Impact</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">🌍 Our Aspirational Impact</h2>
           <div className="w-20 h-1 bg-green-500 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            TharUrja is making a meaningful difference for our planet and communities. Here's how our solutions are creating positive change.
+            TharUrja aims to make a meaningful difference for our planet and communities. Here’s the vision we are working toward as we move from ideation to implementation:
           </p>
         </div>
 
@@ -21,11 +21,11 @@ const Impact: React.FC = () => {
               <Leaf className="h-8 w-8 text-green-500" />
             </div>
             <h3 className="text-4xl font-bold text-gray-900 mb-2">12,500</h3>
-            <p className="text-lg text-gray-600 mb-4">Tons of CO2 Avoided</p>
+            <p className="text-lg text-gray-600 mb-4">Tons of CO₂ Reduction Potential</p>
             <div className="w-full bg-gray-200 h-2 rounded-full mb-2">
               <div className="bg-green-500 h-2 rounded-full" style={{ width: '75%' }}></div>
             </div>
-            <p className="text-sm text-gray-500">75% toward 2025 goal</p>
+            <p className="text-sm text-gray-500">Projected to reduce carbon emissions by 2025 with our innovative solar-powered cooling and carbon capture technologies.</p>
           </div>
 
           {/* Jobs Created */}
@@ -34,11 +34,11 @@ const Impact: React.FC = () => {
               <Users className="h-8 w-8 text-blue-500" />
             </div>
             <h3 className="text-4xl font-bold text-gray-900 mb-2">250+</h3>
-            <p className="text-lg text-gray-600 mb-4">Rural Jobs Created</p>
+            <p className="text-lg text-gray-600 mb-4">Future Rural Jobs</p>
             <div className="w-full bg-gray-200 h-2 rounded-full mb-2">
               <div className="bg-blue-500 h-2 rounded-full" style={{ width: '60%' }}></div>
             </div>
-            <p className="text-sm text-gray-500">60% in underserved areas</p>
+            <p className="text-sm text-gray-500">Anticipated creation of sustainable jobs, with a focus on underserved communities in desert and rural regions.</p>
           </div>
 
           {/* Economic Growth */}
@@ -47,11 +47,11 @@ const Impact: React.FC = () => {
               <TrendingUp className="h-8 w-8 text-yellow-500" />
             </div>
             <h3 className="text-4xl font-bold text-gray-900 mb-2">₹140M</h3>
-            <p className="text-lg text-gray-600 mb-4">Economic Impact</p>
+            <p className="text-lg text-gray-600 mb-4">Potential Economic Impact</p>
             <div className="w-full bg-gray-200 h-2 rounded-full mb-2">
               <div className="bg-yellow-500 h-2 rounded-full" style={{ width: '85%' }}></div>
             </div>
-            <p className="text-sm text-gray-500">85% reinvested locally</p>
+            <p className="text-sm text-gray-500">Aiming to drive local economic growth, with a commitment to reinvesting resources into community development and green infrastructure.</p>
           </div>
         </div>
 
