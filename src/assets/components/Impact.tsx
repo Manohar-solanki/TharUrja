@@ -72,8 +72,8 @@ const Impact: React.FC = () => {
                 <div className="flex items-center">
                   <div className="h-12 w-12 bg-gray-300 rounded-full mr-4"></div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Priya Sharma</h4>
-                    <p className="text-gray-500">Village Head, Balesar</p>
+                    <h4 className="font-semibold text-gray-900">Bablu</h4>
+                    <p className="text-gray-500">Influencers in Climate Tech, Balesar</p>
                   </div>
                 </div>
               </div>
@@ -92,8 +92,8 @@ const Impact: React.FC = () => {
                 <div className="flex items-center">
                   <div className="h-12 w-12 bg-gray-300 rounded-full mr-4"></div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Raj Patel</h4>
-                    <p className="text-gray-500">Business Owner, Jodhpur</p>
+                    <h4 className="font-semibold text-gray-900">Anil</h4>
+                    <p className="text-gray-500">Climate Science Student, Jodhpur</p>
                   </div>
                 </div>
               </div>
