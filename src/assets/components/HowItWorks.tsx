@@ -111,9 +111,11 @@ const HowItWorks: React.FC = () => {
 
         {/* Interactive Visualization */}
         <div className="mt-16 text-center">
-          <button className="bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-md transition-all duration-300">
-            Explore Interactive Demo
-          </button>
+          <a href="/videos/demo.mp4" target="_blank">
+            <button className="bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-md transition-all duration-300">
+              Explore Interactive Demo
+            </button>
+          </a>
         </div>
       </div>
     </section>
