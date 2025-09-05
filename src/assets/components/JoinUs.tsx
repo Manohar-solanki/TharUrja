@@ -23,7 +23,7 @@ const JoinUs: React.FC = () => {
       formData.append('name', name);
       formData.append('email', email);
       formData.append('subject', 'New Newsletter Subscription');
-      formData.append('access_key', 'e962bbd6-e60d-4b1c-bc94-2d5dee0809a0'); // Replace with your key
+      formData.append('access_key', 'e962bbd6-e60d-4b1c-bc94-2d5dee0809a0');  // Replace with your key
       formData.append('botcheck', '');
 
       const response = await fetch('https://api.web3forms.com/submit ', {
