@@ -37,6 +37,8 @@ const Hero: React.FC = () => {
           <p className="text-xl md:text-2xl text-gray-200 mb-10">
             Combining renewable energy with AI-powered optimization to create a sustainable future
           </p>
+
+          {/* Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a 
               href="#mission" 
@@ -56,6 +58,17 @@ const Hero: React.FC = () => {
               className="bg-transparent hover:bg-white text-white hover:text-green-700 font-medium py-3 px-6 rounded-full border-2 border-white transition-all duration-300 transform hover:scale-105"
             >
               Get Involved
+            </a>
+
+            {/* 🔗 New Button: Weather App */}
+            <a
+              href="https://weather.tharurja.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
+            >
+              🌤️ Live Weather Dashboard
+              <ArrowRight className="ml-2 h-5 w-5" />
             </a>
           </div>
         </div>
