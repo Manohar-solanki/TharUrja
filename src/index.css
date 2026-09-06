@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+  }
+  
+  .font-mono {
+    font-family: 'Space Mono', monospace;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.02em;
+  }
+  
+  p, li, span {
+    line-height: 1.7;
+  }
+}
+
+/* 4% Opacity Global Noise Filter Overlay */
+.global-noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9990;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Custom Magnetic Cursor (20px Golden Circle + 4px Center Dot) */
+@media (min-width: 1024px) {
+  body {
+    cursor: default;
+  }
+  .magnetic-cursor-dot {
+    width: 4px;
+    height: 4px;
+    background-color: #D4A017;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 8px #D4A017;
+    transition: transform 0.08s ease-out;
+  }
+  .magnetic-cursor-circle {
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid rgba(212, 160, 23, 0.6);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9998;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease, border-color 0.2s ease, transform 0.15s ease-out;
+  }
+  .magnetic-cursor-circle.active {
+    width: 44px;
+    height: 44px;
+    border-color: #FF6B00;
+    background-color: rgba(255, 107, 0, 0.05);
+  }
+}
+
+/* Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .global-noise-overlay {
+    display: none;
+  }
+}
+
+/* Animated Golden Glow Helpers */
+.gold-progress-glow {
+  box-shadow: 0 0 12px rgba(212, 160, 23, 0.9), 0 0 24px rgba(255, 107, 0, 0.6);
+}
+
+@keyframes logoPulse {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 10px rgba(212, 160, 23, 0.4)); }
+  50% { transform: scale(1.05); filter: drop-shadow(0 0 25px rgba(212, 160, 23, 0.8)); }
+}
+
+.animate-logo-pulse {
+  animation: logoPulse 4s ease-in-out infinite;
+}
